@@ -1,0 +1,36 @@
+{
+  "analysts": [
+    {
+      "firm": "D.A. Davidson & Co.",
+      "analyst": "Gary Tenner"
+    },
+    {
+      "firm": "Hovde Group",
+      "analyst": "Brett Rabatin"
+    },
+    {
+      "firm": "Janney Montgomery Scott LLC",
+      "analyst": "Christopher W. Marinac"
+    },
+    {
+      "firm": "Keefe Bruyette & Woods Inc.",
+      "analyst": "Catherine Mealor"
+    },
+    {
+      "firm": "Piper Sandler",
+      "analyst": "Stephen Scouten"
+    },
+    {
+      "firm": "Raymond James",
+      "analyst": "Michael Rose"
+    },
+    {
+      "firm": "Stephens, Inc.",
+      "analyst": "Matt Olney"
+    },
+    {
+      "firm": "Citigroup",
+      "analyst": "Ben Gerlinger"
+    }
+  ]
+}

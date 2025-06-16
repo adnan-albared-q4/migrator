@@ -1,0 +1,24 @@
+//convert the html to this json template. dont add the fields that dont excist. only the name and firm are required.
+{
+    "analysts": [
+        {
+            "name": "John Doe",
+            "firm": "Example Securities",
+            "title": "Senior Research Analyst, CFA",
+            "url": "https://example.com/analyst/john-doe",
+            "email": "john.doe@example.com",
+            "phone": "123-456-7890",
+            "location": "New York, NY\nUnited States",
+            "targetPrice": "$50.00",
+            "reportingDate": "2024-03-20",
+            "rating": "Buy"
+        },
+        {
+            "name": "Jane Smith",
+            "firm": "Sample Research",
+            "title": "VP, Technology Research",
+            "email": "jane.smith@sample.com",
+            "rating": "Hold"
+        }
+    ]
+} 

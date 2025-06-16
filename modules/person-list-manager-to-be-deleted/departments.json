@@ -1,0 +1,16 @@
+{
+  "departments": {
+    "source": [
+      "Senior Management",
+      "Board of Directors"
+    ],
+    "destination": [
+      "Board of Directors",
+      "Management"
+    ],
+    "mapping": {
+      "Senior Management": "Management",
+      "Board of Directors": "Board of Directors"
+    }
+  }
+}

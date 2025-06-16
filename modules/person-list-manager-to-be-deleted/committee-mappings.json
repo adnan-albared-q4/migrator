@@ -1,0 +1,83 @@
+{
+  "committees": [
+    {
+      "name": "Board Risk Committee",
+      "workflowId": "4f600bd6-c45a-42df-9995-77e13c23fe95",
+      "index": 0,
+      "selectors": {
+        "member": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl00_rbCommitteeRole_0",
+        "chair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl00_rbCommitteeRole_1",
+        "viceChair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl00_rbCommitteeRole_2",
+        "nonMember": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl00_rbCommitteeRole_3"
+      },
+      "mappings": {
+        "memberTag": "risk-member",
+        "chairTag": "risk-chair",
+        "viceChairTag": "risk-vice-chair"
+      }
+    },
+    {
+      "name": "Audit Committee",
+      "workflowId": "b5776d72-3f9f-4a75-9277-72c3b6096d29",
+      "index": 1,
+      "selectors": {
+        "member": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl01_rbCommitteeRole_0",
+        "chair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl01_rbCommitteeRole_1",
+        "viceChair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl01_rbCommitteeRole_2",
+        "nonMember": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl01_rbCommitteeRole_3"
+      },
+      "mappings": {
+        "memberTag": "audit-member",
+        "chairTag": "audit-financial-chair",
+        "viceChairTag": "audit-vice-chair"
+      }
+    },
+    {
+      "name": "Compensation Committee",
+      "workflowId": "d904ddc9-7341-43fb-a5b2-a7a981c1f75f",
+      "index": 2,
+      "selectors": {
+        "member": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl02_rbCommitteeRole_0",
+        "chair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl02_rbCommitteeRole_1",
+        "viceChair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl02_rbCommitteeRole_2",
+        "nonMember": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl02_rbCommitteeRole_3"
+      },
+      "mappings": {
+        "memberTag": "compensation-member",
+        "chairTag": "compensation-chair",
+        "viceChairTag": "compensation-vice-chair"
+      }
+    },
+    {
+      "name": "Corporate Governance and Nominating Committee",
+      "workflowId": "c3d50f1a-7489-4aa3-8c74-f014412aaa41",
+      "index": 3,
+      "selectors": {
+        "member": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl03_rbCommitteeRole_0",
+        "chair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl03_rbCommitteeRole_1",
+        "viceChair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl03_rbCommitteeRole_2",
+        "nonMember": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl03_rbCommitteeRole_3"
+      },
+      "mappings": {
+        "memberTag": "nominating-member",
+        "chairTag": "nominating-chair",
+        "viceChairTag": "nominating-vice-chair"
+      }
+    },
+    {
+      "name": "Executive Committee",
+      "workflowId": "a0bff04c-9461-4696-a068-f39e46254c59",
+      "index": 4,
+      "selectors": {
+        "member": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl04_rbCommitteeRole_0",
+        "chair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl04_rbCommitteeRole_1",
+        "viceChair": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl04_rbCommitteeRole_2",
+        "nonMember": "#_ctrl0_ctl19_repCommitteeMemberships_ctl00_repCommitteeColumns_ctl00_repCommitteeSet_ctl04_rbCommitteeRole_3"
+      },
+      "mappings": {
+        "memberTag": "executive-member",
+        "chairTag": "executive-chair-board"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1163 @@
+{
+  "persons": [
+    {
+      "firstName": "John M.",
+      "lastName": "Hairston",
+      "title": "PRESIDENT & CHIEF EXECUTIVE OFFICER",
+      "description": "<p>Mr. Hairston is President of the Company and Chief Executive Officer of the Company and the Bank. He has served as Chief Executive Officer since 2008 and as President of the Company since 2014. He also served as Chief Operating Officer from 2008 to 2014, Chief Operations Officer from 1994 to 2006 and as Executive Vice President of the Company and Banks from 1994 to 2006. Mr. Hairston serves as a Trustee of the National World War II Museum, the World War II Theatre and the WWII Pavilions, nonprofit organizations in New Orleans, LA, and is on the board of the Mississippi Aquarium Foundation, a nonprofit organization on the Mississippi Gulf Coast. He is past Chairman of the Mississippi Gaming Commission, the Mississippi Information Technology Services Board of Directors, and Mississippi State University College of Business Advisory Board. He was a faculty member of the Graduate School of Banking at LSU in Baton Rouge, Louisiana, and at the Georgia Banking School in Athens, Georgia. He also currently serves on the Board of Directors of the Gulf Coast Business Council.</p>\n",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael M.",
+      "lastName": "Achary",
+      "title": "CHIEF FINANCIAL OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Stephen",
+      "lastName": "Barker",
+      "title": "SENIOR ACCOUNTING & FINANCE EXECUTIVE",
+      "description": "",
+      "active": false,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Joshua R.",
+      "lastName": "Caldwell",
+      "title": "CHIEF INTERNAL AUDITOR",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Cindy S.",
+      "lastName": "Collins",
+      "title": "CHIEF COMPLIANCE OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Joseph S.",
+      "lastName": "Exnicios",
+      "title": "HANCOCK WHITNEY BANK PRESIDENT",
+      "description": "<p>Bank president since 2011; Senior Executive Vice President and Chief Risk Officer of Whitney Holding Corporation and Whitney National Bank from 2009 to 2011; Executive Vice President of Whitney Holding Corporation and Whitney National Bank from 2004 to 2009.</p>\n",
+      "active": false,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Alan M.",
+      "lastName": "Ganucheau",
+      "title": "TREASURER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Chip",
+      "lastName": "Knight",
+      "title": "CHIEF BANKING OFFICER",
+      "description": "",
+      "active": false,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Juanita P.",
+      "lastName": "Kuhner",
+      "title": "GENERAL COUNSEL & CORPORATE SECRETARY",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "D. Shane",
+      "lastName": "Loper",
+      "title": "HANCOCK WHITNEY BANK PRESIDENT & CHIEF OPERATING OFFICER",
+      "description": "\n",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Emory L.",
+      "lastName": "Mayfield",
+      "title": "Chief Consumer Banking Officer ",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Miles S.",
+      "lastName": "Milton",
+      "title": "CHIEF WEALTH MANAGEMENT OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Eric S.",
+      "lastName": "Obeck",
+      "title": "Chief Commercial Banking Officer",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Otero",
+      "title": "CHIEF RISK OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Joy",
+      "lastName": "Lambert Phillips",
+      "title": "CHIEF LEGAL OFFICER",
+      "description": "",
+      "active": false,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Rudi",
+      "lastName": "Hall Thompson",
+      "title": "CHIEF HUMAN RESOURCES OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Christopher S.",
+      "lastName": "Ziluca",
+      "title": "CHIEF CREDIT OFFICER",
+      "description": "",
+      "active": true,
+      "department": "Senior Management",
+      "tags": [],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Jerry L.",
+      "lastName": "Levens",
+      "title": "CHAIRMAN OF THE BOARD*",
+      "description": "<p>Jerry L. Levens has worked in the accounting profession since 1978, providing accounting, audit, assurance and strategic planning services. He recently retired from Alexander, Van Loon, Sloan, Levens & Favre, PLLC, a regional CPA firm based on the Mississippi Gulf Coast, after serving as a partner for 27 years and as the partner in charge of the firm’s audit and assurance engagements for 25 years. Prior to joining the company's Board of Directors, he served as a director of Hancock Bank from 2008 to 2009.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "audit-financial-board",
+        "compensation-board",
+        "executive-chair-board"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Chair"
+        }
+      ]
+    },
+    {
+      "firstName": "Frank E.",
+      "lastName": "Bertucci",
+      "title": "DIRECTOR*",
+      "description": "<p>Frank E. Bertucci has been employed with F.E.B. Distributing Co., Inc., a regional beverage wholesaler, since 1978 and has served as its President since 1990. Since 2001, he has served as Chief Executive Officer of Capital City Beverage. Mr. Bertucci is a director of the Mississippi Beer Distributors Association in Jackson, Mississippi, and a director of Fullhouse Venture Company L.P. of Gulfport, Mississippi, a limited partnership engaged in the business of real estate holdings. Mr. Bertucci has been an Advisory Director of the bank since 1995.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "risk-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Chair"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Moses H.",
+      "lastName": "Feagin Sr.",
+      "title": "DIRECTOR",
+      "description": "Mr. Feagin currently serves as executive vice president, treasurer and chief financial officer of Alabama Power, a subsidiary of the Southern Company. In that role, he oversees the Finance, Accounting and Treasury departments, as well as Regulatory Affairs for the company.  Previously, he served as senior vice president, treasurer, chief financial officer and chief diversity officer for Mississippi Power, also a subsidiary of the Southern Company. Mr. Feagin began his career with the Southern Company over 35 years ago as a junior accountant.  He moved through various positions and in 1999 became the manager of Alabama Power’s Accounting Operations.  In 2000, he moved to Southern Company Services as Generation Accounting manager, where he led the effort to establish the accounting and budget organization for the Southern Power Company.  He was elected to comptroller of Mississippi Power in 2005 and vice president and comptroller of Alabama Power in 2008.  \nMr. Feagin has also been active in various professional, community and civic activities, including as a member of the Mississippi Gulf Coast Community Foundation, and was appointed to be a member of the Gulf Coast Restoration Council Advisory Board.\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "audit-financial",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Hardy B.",
+      "lastName": "Fowler",
+      "title": "DIRECTOR*",
+      "description": "<p>Hardy B. Fowler concluded a 34-year career at the international accounting firm of KPMG, including 25 years as a tax partner, and served as the New Orleans office's managing partner during his last seven years with that firm. Mr. Fowler has served on the boards of various civic organizations and currently serves as a director of a New Orleans nonprofit organization. Mr. Fowler was a director of Whitney Holding Corporation and Whitney National Bank from 2009 until 2011, when he joined our Board of Directors in connection with the merger.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "compensation-chair",
+        "audit-financial",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Chair"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "John M.",
+      "lastName": "Hairston",
+      "title": "DIRECTOR",
+      "description": "<p>Mr. Hairston is President of the Company and Chief Executive Officer of the Company and the Bank. He has served as Chief Executive Officer since 2008 and as President of the Company since 2014. He also served as Chief Operating Officer from 2008 to 2014, Chief Operations Officer from 1994 to 2006 and as Executive Vice President of the Company and Banks from 1994 to 2006. Mr. Hairston serves as a Trustee of the National World War II Museum, the World War II Theatre and the WWII Pavilions, nonprofit organizations in New Orleans, LA, and is on the board of the Mississippi Aquarium Foundation, a nonprofit organization on the Mississippi Gulf Coast. He is past Chairman of the Mississippi Gaming Commission, the Mississippi Information Technology Services Board of Directors, and Mississippi State University College of Business Advisory Board. He was a faculty member of the Graduate School of Banking at LSU in Baton Rouge, Louisiana, and at the Georgia Banking School in Athens, Georgia. He also currently serves on the Board of Directors of the Gulf Coast Business Council.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Randall W.",
+      "lastName": "Hanna",
+      "title": "DIRECTOR*",
+      "description": "<p>Randall W. Hanna has served as Dean and Chief Executive Officer of Florida State University Panama City since 2016. Dr. Hanna’s professional experience has been committed to both higher education and the practice of law. From 2015 to 2016, he served as a faculty member at Florida State University and was a practicing attorney, and from 2011 to 2015 he served as Chancellor of the Florida College System. Mr. Hanna has also served as a member of the governing boards of three institutions of higher education. Prior to his 2011 appointment as Chancellor, Mr. Hanna served as Chairman and Managing Shareholder of Bryant Miller Olive, a law firm with offices in Florida, Washington, D.C. and Atlanta. He practiced law with the firm from 1984 to 2011 and from 2015 to 2016. Prior to his appointment as a director of the Company, he served as a director of Hancock Bank of Florida from 2007 to 2010.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "James H.",
+      "lastName": "Horne",
+      "title": "DIRECTOR*",
+      "description": "<p>James H. Horne has been involved in the appraisal, management and development of real estate along the Mississippi Gulf Coast for over 40 years, and manages several large industrial warehouses. He is also the co-owner and President of Handy Lock Self Storage Centers since 1993. Mr. Horne has served on the boards of various professional and civic organizations, including holding leadership positions. Prior to joining our board, he served as a director of Hancock Bank from 1995 to 2000.</p>\n",
+      "active": false,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "compensation-member",
+        "nominating-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Chair"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": " Suzette K.",
+      "lastName": "Kent",
+      "title": "DIRECTOR*",
+      "description": "<p>Ms. Kent is a global business transformation executive who most recently served as the Federal Chief Information Officer for the United States government. She was the first woman to serve in that role. Prior to that role, Ms. Kent served in leadership positions at JP Morgan, Ernst & Young (EY), Accenture and Carreker (FiServ). At JP Morgan, Ms. Kent was a managing director in the bank’s Treasury and Securities Solutions business and Client Solutions Executive in the Commercial Bank. As a partner at EY Ms. Kent built a thriving practice focused on payments, banking and treasury management innovation, and transformation programs serving a wide variety of banks and other financial institutions. She has worked across both public and private sectors, bringing her deep experience in business development, solution construction, technology, and risk management and operations to assist and advise clients around the world and across industries.</p>",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "nominating-vice-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "ViceChair"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "H. Merritt",
+      "lastName": "Lane, III",
+      "title": "DIRECTOR*",
+      "description": "<p>Mr. Lane has served as the Chairman, President and Chief Executive Officer of Canal Barge Company, Inc., a New Orleans based marine transport, services and liquid storage company, since 1994. He joined Canal Barge Company in 1986 and held several marketing and executive positions prior to his appointment as President in 1994. Mr. Lane currently serves on the board of directors of Pontchartrain Materials Corporation, L.L.C., a privately held construction aggregate supplier, where he has been a director since 2001. Mr. Lane has previously served on the boards of directors of several additional companies, including International Shipholding Corp., a publicly traded marine transportation company, from 2004 to 2015 and Hibernia Homestead Bancorp., Inc., a New Orleans based community bank holding company, from 2008 to 2018. Mr. Lane is active in leadership positions with a number of civic, educational and philanthropic organizations, including the National World War II Museum and the Nature Conservancy of Louisiana, among others.</p>",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "compensation-member",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Dean",
+      "lastName": "Liollio",
+      "title": "DIRECTOR*",
+      "description": "<p>Constantine S. Liollio has served as President of Plains Midstream Canada ULC (PMC), headquartered in Calgary, Alberta, since February 1, 2020. PMC owns and operates midstream energy infrastructure and provides logistics services primarily for crude oil, natural gas liquids and natural gas customers in Canada and parts of the United States and is a subsidiary of Plains All American Pipeline, L.P. (NYSE: PAA), a Houston-based publicly traded partnership. From 2008 through January 31, 2020, Mr. Liollio served as President of PAA Natural Gas Storage, LLC, a natural gas storage business based in Houston, Texas, that is also a subsidiary of PAA. His substantial knowledge of and experience in natural gas storage operations includes the Gulf Coast markets of Texas, Louisiana, Mississippi, Alabama and Florida.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "nominating-member",
+        "compensation-vice-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "ViceChair"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Sonya C.",
+      "lastName": "Little",
+      "title": "DIRECTOR*",
+      "description": "<p>Sonya C. Little has served as the Chief Administrative Officer of Strategic Property Partners, a full-service commercial real estate development firm, since August of 2019, where she oversees corporate operating functions, including finance, accounting, risk management, human resources, legal and information technology. Prior to her current position, Ms. Little was the Chief Financial Officer of the City of Tampa, Florida, for eight years, where she led a team of more than 90 professionals, administered an annual operating budget of over $1.2 billion, and managed the city’s credit ratings and a $900+ million debt portfolio. Ms. Little previously worked as a managing director with Public Resources Advisory Group in Florida for three years, as a municipal investment banker with RBC Capital Markets and William R. Hough & Co. for over 14 years; and as a bond development specialist with the State of Florida’s Division of Bond Finance. She also worked for both Barnett Bank and Florida National Bank.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "nominating-member",
+        "audit-financial",
+        "audit-vice-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "ViceChair"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Thomas H.",
+      "lastName": "Olinde",
+      "title": "DIRECTOR*",
+      "description": "<p>Thomas H. Olinde has served as President of Olinde Hardware and Supply Co., LLC since 1997 and is also a managing member and director of B. Olinde & Sons Co., LLC. Although Mr. Olinde sold a majority interest in Olinde Hardware and Supply Co., LLC in January 2019, he continues to manage the enterprise as its President. Mr. Olinde has served as a director and in leadership positions of numerous professional organizations and various nonprofit and civic organizations and currently serves on the boards of two nonprofit organizations in our Baton Rouge market. Prior to joining our board, he served as a director of Hancock Bank of Louisiana from 2006 to 2014.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "compensation-member",
+        "nominating-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Chair"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Sonia A.",
+      "lastName": "Pérez",
+      "title": "DIRECTOR*",
+      "description": "<p>Sonia A. Pérez has served as the President, Southeast States, for AT&T Inc. since 2018. Ms. Pérez joined AT&T in 2005 and previously served as President, AT&T Louisiana from 2010 to 2018 and Vice President, AT&T Texas, from 2005 to 2010. Prior to 2005, Ms. Pérez was employed at SBC (formerly Southwestern Bell), from 1979 until SBC’s 2005 acquisition of AT&T, at which time SBC adopted the AT&T name. Ms. Pérez has served on the board of directors of Sanderson Farms, Inc., a publicly traded Mississippi-based poultry processing company, since 2019. She is also a current and former director of a number of industry and philanthropic organizations, including current service for the National World War II Museum, the Louisiana Board of Regents and the University of Texas Foundation. Ms. Pérez has also been selected by elected officials to serve in a number of special project advisory roles, including appointment as a member of the Resilient Louisiana Commission and appointment as chair of the Louisiana Economic Development Transition Team for Governor John Bel Edwards.</p>",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Christine L.",
+      "lastName": "Pickering",
+      "title": "DIRECTOR*",
+      "description": "<p>Christine L. Pickering, a licensed Certified Public Accountant for more than 30 years, has worked in the accounting field since 1983 and has owned Christy Pickering, CPA since 1991, where she has provided auditing and assurance, tax preparation and litigation support services, including investigation of financial crimes. She is a director of Mississippi Power Company, a public company subsidiary, since February 2007. Ms. Pickering is also a published author and has been asked to participate in speaking engagements throughout the company footprint in that capacity.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "executive-member",
+        "nominating-member",
+        "audit-financial-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Chair"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Robert W.",
+      "lastName": "Roseberry",
+      "title": "DIRECTOR*",
+      "description": "<p>Robert W. Roseberry is the retired, former President of the Northern Division of Hancock Bank, Gulfport, Mississippi from 2001 to 2007. Previously, he served as Chairman and Chief Executive Officer of Lamar Capital Corporation from 1998 to 2001, and President and Chief Executive Officer of Lamar from 1986 to 1998. Mr. Roseberry served in various capacities at Lamar Bank from 1971 to 2001, including as Chairman, Chief Executive Officer, President, and board director. He has owned and operated his own farming, ranching and forestry business, Pine Lake Farms, LLC, in Mississippi, managing approximately 2,000 acres of timberland for 50 years. Mr. Roseberry has been involved in numerous civic activities and has also served in government as the Mayor of Purvis, Mississippi.</p>\n",
+      "active": false,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "audit-member",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Joanie C.",
+      "lastName": "Teofilo",
+      "title": "DIRECTOR*",
+      "description": "<p>Joan C. Teofilo is the President and Chief Executive Officer of The Energy Authority (TEA), the nation’s largest nonprofit energy trading company owned by public power utilities since 2010, and was a member of the company’s founding launch team in 1997. TEA provides strategic energy solutions to community-owned utilities nationwide. The company, which is headquartered in Jacksonville, Florida, with offices in Bellevue, Washington, serves over 50 public power utilities and handles over 30,000 megawatts of power generation. Prior to joining TEA, Ms. Teofilo worked as a project engineer in construction management at Santee Cooper, the largest public power utility in South Carolina, and as a mechanical engineer at the American Samoa Power Authority. She has been invited to present and speak at industry events across the country.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "risk-vice-chair"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "ViceChair"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    },
+    {
+      "firstName": "Carleton Richard",
+      "lastName": "Wilkins",
+      "title": "DIRECTOR*",
+      "description": "<p>C. Richard Wilkins began practicing law in 1990 with the law firm of Vickers, Riis, Murray and Curran, becoming a Partner in 1993. He joined the Mobile, Alabama, office of the Maynard, Cooper & Gale law firm through its acquisition of the Vickers, Riis firm in 2015. Mr. Wilkins is a private practitioner since April 2020. He practices primarily in the areas of commercial litigation, commercial transactions, banking, admiralty and maritime law, real estate and creditors’ rights/bankruptcy. Mr. Wilkins has served on the Market Advisory Board of the bank since 2014 and prior to joining our board served as a director of Hancock Bank from 2011 to 2014. He also served as Director and Chairman of Hancock Bank of Alabama from 2007 to 2011.</p>\n",
+      "active": true,
+      "department": "Board of Directors",
+      "tags": [
+        "committee",
+        "risk-member"
+      ],
+      "image": null,
+      "memberships": [
+        {
+          "committeeName": "Board Risk Committee",
+          "role": "Member"
+        },
+        {
+          "committeeName": "Audit Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Compensation Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Corporate Governance and Nominating Committee",
+          "role": "Non-Member"
+        },
+        {
+          "committeeName": "Executive Committee",
+          "role": "Non-Member"
+        }
+      ]
+    }
+  ]
+}

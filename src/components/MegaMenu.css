@@ -1,0 +1,86 @@
+.mega-menu {
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mega-menu-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mega-menu-item {
+  position: relative;
+}
+
+.mega-menu-trigger {
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.2s ease;
+  border-radius: 4px;
+  outline: none;
+}
+
+.mega-menu-trigger:hover {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.mega-menu-trigger:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.mega-menu-trigger:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.mega-menu-trigger:focus-visible {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.mega-menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 1rem;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  .mega-menu-trigger {
+    border: 1px solid currentColor;
+  }
+  
+  .mega-menu-trigger:focus {
+    outline: 2px solid currentColor;
+  }
+  
+  .mega-menu-dropdown {
+    border: 1px solid currentColor;
+  }
+} 

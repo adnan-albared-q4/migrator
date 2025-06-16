@@ -1,0 +1,57 @@
+{
+  "marketMakers": [
+    {
+      "company": "Citi Order Routing and Execution, LLC",
+      "phone": "(843) 789-2112",
+      "address": "11 eWall Street\nSuite 103\nMount Pleasant, SC 29464",
+      "website": "http://www.corerouting.com/"
+    },
+    {
+      "company": "Hill, Thompson, Magid & Co., Inc.",
+      "phone": "(201) 434-6900",
+      "address": "15 Exchange Place\nSuite 800\nJersey City, NJ 07302",
+      "website": "http://www.hillthompson.com/"
+    },
+    {
+      "company": "Hudson Securities, Inc.",
+      "phone": "(201) 216-0100",
+      "address": "111 Town Square Place\nSuite 1500A\nJersey City, NJ 07310"
+    },
+    {
+      "company": "Knight Capital Americas, L.P.",
+      "phone": "(201) 222-9400",
+      "address": "545 Washington Boulevard\nJersey City, NJ 07310",
+      "website": "http://www.knight.com/ourFirm/operatingSubsidiaries.asp"
+    },
+    {
+      "company": "Monroe Financial Partners, Inc.",
+      "phone": "(312) 327-2530",
+      "address": "100 North Riverside Plaza\nSuite 1620\nChicago, IL 60606",
+      "website": "http://www.monroefp.com/"
+    },
+    {
+      "company": "Pershing LLC",
+      "phone": "(201) 413-2000",
+      "address": "One Pershing Plaza\nJersey City, NJ 07399",
+      "website": "https://www.pershing.com/"
+    },
+    {
+      "company": "Stifel, Nicolaus & Company, Incorporated",
+      "phone": "(314) 342-2000",
+      "address": "One Financial Plaza\n501 North Broadway\nSaint Louis, MO 63102",
+      "website": "http://www.stifel.com/"
+    },
+    {
+      "company": "UBS Securities LLC",
+      "phone": "(212) 719-2000",
+      "address": "1285 Avenue of the Americas\nOne Stamford Forum-Second Floor\nNew York, NY 10019",
+      "website": "https://www.ubs.com/global/en/investment-bank/llc-financials.html"
+    },
+    {
+      "company": "Wedbush Securities Inc.",
+      "phone": "(213) 688-8000",
+      "address": "1000 Wilshire Boulevard\nSuite 900\nLos Angeles, CA 90017",
+      "website": "http://www.wedbush.com/"
+    }
+  ]
+} 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites - Content Migration Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Templates -->
+    <template id="siteItemTemplate">
+        <div class="site-item">
+            <div class="site-header">
+                <div class="site-info">
+                    <input type="checkbox" class="site-checkbox">
+                    <span class="site-name"></span>
+                </div>
+                <div class="site-actions">
+                    <button class="button button--secondary button--icon view-site-details">
+                        <i class="icon-info"></i>
+                    </button>
+                    <button class="button button--secondary button--icon edit-site">
+                        <i class="icon-pencil"></i>
+                    </button>
+                    <button class="button button--delete button--icon delete-site">
+                        <i class="icon-trash"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="site-urls">
+                <div>Source: <span class="site-source"></span></div>
+                <div>Destination: <span class="site-destination"></span></div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Modal Template -->
+    <template id="modalTemplate">
+        <div class="modal-overlay">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3>Add Site</h3>
+                    <button type="button" class="button button--delete button--icon close-modal">
+                        <i class="icon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-content">
+                    <form id="siteForm" class="form">
+                        <div class="form-group">
+                            <label for="siteName">Company Name</label>
+                            <input type="text" id="siteName" name="siteName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="siteSource">Source Subdomain</label>
+                            <input type="text" id="siteSource" name="siteSource" class="form-control" required>
+                            <small class="form-help">e.g., company2020index</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="siteDestination">Destination Subdomain</label>
+                            <input type="text" id="siteDestination" name="siteDestination" class="form-control" required>
+                            <small class="form-help">e.g., company2025snprd</small>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="button button--secondary close-modal">Cancel</button>
+                            <button type="submit" class="button button--primary">Save Site</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Content Migration Tool</h2>
+            <nav class="sidebar-nav">
+                <a href="../index.html" class="nav-item">
+                    <i class="icon-grid"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="sites.html" class="nav-item active">
+                    <i class="icon-layers"></i>
+                    <span>Sites</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="icon-list"></i>
+                    <span>Logs</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="icon-people"></i>
+                    <span>Users</span>
+                </a>
+            </nav>
+            <div class="log-panel">
+                <h2>Log</h2>
+                <div class="panel-content" id="log-panel"></div>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <header class="app-header">
+                <h1>Sites</h1>
+            </header>
+
+            <main>
+                <div class="panel" id="sitesPanel">
+                    <div class="panel-header">
+                        <h2>All Sites</h2>
+                    </div>
+                    <div class="panel-content" id="sites-list"></div>
+                    <div class="panel-actions">
+                        <button class="button button--primary" id="addSiteBtn">Add Site</button>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer-content">
+                    Content Migration Tool v0.1.0
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/sites.js"></script>
+</body>
+</html> 

@@ -1,0 +1,264 @@
+{
+  "companies": [
+    {
+      "name": "Atlanticus",
+      "baseUrlToScrapeFrom": "atlanticus2020index",
+      "baseUrlToCreateTo": "atlanticus2025snprd"
+    },
+    {
+      "name": "First United Bank & Trust",
+      "baseUrlToScrapeFrom": "firstunitedcorp2020index",
+      "baseUrlToCreateTo": "firstunitedcorp2025snprd"
+    },
+    {
+      "name": "Getty Realty",
+      "baseUrlToScrapeFrom": "getty2020index",
+      "baseUrlToCreateTo": "getty2025snprd"
+    },
+    {
+      "name": "LendingClub Corporation",
+      "baseUrlToScrapeFrom": "lendingclub2019index",
+      "baseUrlToCreateTo": "lendingclub2025snprd"
+    },
+    {
+      "name": "SmartFinancial, Inc.",
+      "baseUrlToScrapeFrom": "smartfinancial2020index",
+      "baseUrlToCreateTo": "smartfinancial2025snprd"
+    },
+    {
+      "name": "Hope Bancorp, Inc.",
+      "baseUrlToScrapeFrom": "hopebancorp2020index",
+      "baseUrlToCreateTo": "hopebancorp2025snprd"
+    },
+    {
+      "name": "GMS",
+      "baseUrlToScrapeFrom": "gms2019index",
+      "baseUrlToCreateTo": "gms2025snprd"
+    },
+    {
+      "name": "Magyar Bancorp",
+      "baseUrlToScrapeFrom": "magyar2020index",
+      "baseUrlToCreateTo": "magyar2025snprd"
+    },
+    {
+      "name": "The Procter & Gamble Company, USA",
+      "baseUrlToScrapeFrom": "pg2020index",
+      "baseUrlToCreateTo": "pg2025snprd"
+    },
+    {
+      "name": "Unity Bank",
+      "baseUrlToScrapeFrom": "unitybancorp2020index",
+      "baseUrlToCreateTo": "unitybancorp2025snprd"
+    },
+    {
+      "name": "Mid-America Apartment Communities Inc",
+      "baseUrlToScrapeFrom": "midamericaapartment2020index",
+      "baseUrlToCreateTo": "midamericaapartment2025snprd"
+    },
+    {
+      "name": "TFS Financial Corporation",
+      "baseUrlToScrapeFrom": "tfsfinancial2024rd",
+      "baseUrlToCreateTo": "tfsfinancial2025snprd"
+    },
+    {
+      "name": "Shore United Bank",
+      "baseUrlToScrapeFrom": "shorebanc2020index",
+      "baseUrlToCreateTo": "shorebanc2025snprd"
+    },
+    {
+      "name": "Vertiv Holdings Co.",
+      "baseUrlToScrapeFrom": "vertiv2019index",
+      "baseUrlToCreateTo": "vertiv2025snprd"
+    },
+    {
+      "name": "Mercantile Bank",
+      "baseUrlToScrapeFrom": "mercantilebank2020index",
+      "baseUrlToCreateTo": "mercantilebank2025snprd"
+    },
+    {
+      "name": "Preferred Bank",
+      "baseUrlToScrapeFrom": "preferredbank2020index",
+      "baseUrlToCreateTo": "preferredbank2025snprd"
+    },
+    {
+      "name": "gms2",
+      "baseUrlToScrapeFrom": "bankofjames2020index",
+      "baseUrlToCreateTo": "gms2025snprd2"
+    },
+    {
+      "name": "firstsolar",
+      "baseUrlToScrapeFrom": "firstsolar2022rd",
+      "baseUrlToCreateTo": "firstsolar2025snprd"
+    },
+    {
+      "name": "bankofjames",
+      "baseUrlToScrapeFrom": "bankofjames2020index",
+      "baseUrlToCreateTo": "bankofjames2025snprd"
+    },
+    {
+      "name": "trustmarkcorp",
+      "baseUrlToScrapeFrom": "trustmarkcorp2020index",
+      "baseUrlToCreateTo": "trustmarkcorp2025snprd"
+    },
+    {
+      "name": "firstnortherncommunity",
+      "baseUrlToScrapeFrom": "firstnortherncommunity2020index",
+      "baseUrlToCreateTo": "firstnortherncommunity2025snprd"
+    },
+    {
+      "name": "valleynationalbancorp",
+      "baseUrlToScrapeFrom": "valleynationalbancorp2024rd",
+      "baseUrlToCreateTo": "valleynationalbancorp2025snprd"
+    },
+    {
+      "name": "phillipsedison",
+      "baseUrlToScrapeFrom": "phillipsedison2024ir",
+      "baseUrlToCreateTo": "phillipsedison2025snprd"
+    },
+    {
+      "name": "kimco",
+      "baseUrlToScrapeFrom": "kimco2020index",
+      "baseUrlToCreateTo": "kimco2025snprd"
+    },
+    {
+      "name": "mosaic",
+      "baseUrlToScrapeFrom": "mosaic2020ir",
+      "baseUrlToCreateTo": "mosaic2025snprd"
+    },
+    {
+      "name": "bluebird",
+      "baseUrlToScrapeFrom": "bluebird2020index",
+      "baseUrlToCreateTo": "bluebird2025snprd"
+    },
+    {
+      "name": "oceanfirst",
+      "baseUrlToScrapeFrom": "oceanfirst2020ir",
+      "baseUrlToCreateTo": "oceanfirst2025snprd"
+    },
+    {
+      "name": "mduresources",
+      "baseUrlToScrapeFrom": "mduresources2021rd",
+      "baseUrlToCreateTo": "mduresources2025snprd"
+    },
+    {
+      "name": "hormel",
+      "baseUrlToScrapeFrom": "hormel2024rd",
+      "baseUrlToCreateTo": "hormel2025snprd"
+    },
+    {
+      "name": "parkebancorp",
+      "baseUrlToScrapeFrom": "parkebancorp2020index",
+      "baseUrlToCreateTo": "parkebancorp2025snprd"
+    },
+    {
+      "name": "middlefield",
+      "baseUrlToScrapeFrom": "middlefield2020index",
+      "baseUrlToCreateTo": "middlefield2025snprd"
+    },
+    {
+      "name": "cousins",
+      "baseUrlToScrapeFrom": "cousins2022rd",
+      "baseUrlToCreateTo": "cousins2025snprd"
+    },
+    {
+      "name": "oldpoint",
+      "baseUrlToScrapeFrom": "oldpoint2020index",
+      "baseUrlToCreateTo": "oldpoint2025snprd"
+    },
+    {
+      "name": "brooklinebancorp",
+      "baseUrlToScrapeFrom": "brooklinebancorp2020index",
+      "baseUrlToCreateTo": "brooklinebancorp2025snprd"
+    },
+    {
+      "name": "nycb",
+      "baseUrlToScrapeFrom": "nycb2024rbcr",
+      "baseUrlToCreateTo": "nycb2025snprd"
+    },
+    {
+      "name": "dicks",
+      "baseUrlToScrapeFrom": "dicks2020rd",
+      "baseUrlToCreateTo": "dicks2025snprd"
+    },
+    {
+      "name": "opbancorp",
+      "baseUrlToScrapeFrom": "opbancorp2024rd",
+      "baseUrlToCreateTo": "opbancorp2025snprd"
+    },
+    {
+      "name": "midwestonefinancial",
+      "baseUrlToScrapeFrom": "midwestonefinancial2020index",
+      "baseUrlToCreateTo": "midwestonefinancial2025snprd"
+    },
+    {
+      "name": "firstcommunitycorp",
+      "baseUrlToScrapeFrom": "firstcommunitycorp2020index",
+      "baseUrlToCreateTo": "firstcommunitycorp2025snprd"
+    },
+    {
+      "name": "amerisbancorp2020index",
+      "baseUrlToScrapeFrom": "amerisbancorp2020index",
+      "baseUrlToCreateTo": "hilltopholdings2025snprd"
+    },
+    {
+      "name": "amerisbancorp",
+      "baseUrlToScrapeFrom": "amerisbancorp2020index",
+      "baseUrlToCreateTo": "amerisbancorp2025snprd"
+    },
+    {
+      "name": "westshorebank",
+      "baseUrlToScrapeFrom": "westshorebank2020index",
+      "baseUrlToCreateTo": "westshorebank2025snprd"
+    },
+    {
+      "name": "firstinterstate",
+      "baseUrlToScrapeFrom": "firstinterstate2021rd",
+      "baseUrlToCreateTo": "firstinterstate2025snprd"
+    },
+    {
+      "name": "popular",
+      "baseUrlToScrapeFrom": "popular2020index",
+      "baseUrlToCreateTo": "popular2025snprd"
+    },
+    {
+      "name": "cubesmart",
+      "baseUrlToScrapeFrom": "cubesmart2022rd",
+      "baseUrlToCreateTo": "cubesmart2025snprd"
+    },
+    {
+      "name": "eaglebancorpmontana",
+      "baseUrlToScrapeFrom": "eaglebancorpmontana2020index",
+      "baseUrlToCreateTo": "eaglebancorpmontana2025snprd"
+    },
+    {
+      "name": "xcelenergy",
+      "baseUrlToScrapeFrom": "xcelenergy2023rd",
+      "baseUrlToCreateTo": "xcelenergy2025snprd"
+    },
+    {
+      "name": "csbbancorp",
+      "baseUrlToScrapeFrom": "csbbancorp2020index",
+      "baseUrlToCreateTo": "csbbancorp2025snprd"
+    },
+    {
+      "name": "heritagefinancial",
+      "baseUrlToScrapeFrom": "heritagefinancial2020index",
+      "baseUrlToCreateTo": "heritagefinancial2025snprd"
+    },
+    {
+      "name": "ameriserv",
+      "baseUrlToScrapeFrom": "ameriserv2022rd",
+      "baseUrlToCreateTo": "ameriserv2025snprd"
+    },
+    {
+      "name": "kishbancorp",
+      "baseUrlToScrapeFrom": "kishbancorp2020index",
+      "baseUrlToCreateTo": "kishbancorp2025snprd"
+    },
+    {
+      "name": "hancockwhitney",
+      "baseUrlToScrapeFrom": "hancockwhitney2020index",
+      "baseUrlToCreateTo": "hancockwhitney2025snprd"
+    }
+  ]
+}

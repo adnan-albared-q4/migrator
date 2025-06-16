@@ -1,0 +1,24 @@
+{
+  "companies": [
+    {
+      "from": "hancockwhitney2020index",
+      "to": "hancockwhitney2025snprd"
+    },
+    {
+      "from": "firstinternetbancorp2020index",
+      "to": "firstinternetbancorp2025snprd"
+    },
+    {
+      "from": "kishbancorp2020index",
+      "to": "kishbancorp2025snprd"
+    },
+    {
+      "from": "bokfinancial2020index",
+      "to": "bokfinancial2025snprd"
+    },
+    {
+      "from": "ameriserv2022rd",
+      "to": "ameriserv2025snprd"
+    }
+  ]
+}
