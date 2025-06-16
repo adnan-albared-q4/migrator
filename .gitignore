@@ -33,6 +33,8 @@ coverage/
 
 # Data directory
 data/ 
+data/link-updates/
+data/link-updates/*.json
 
 # Ignore sites.json 
 sites.json 

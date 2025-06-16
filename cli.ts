@@ -33,6 +33,7 @@ import { MergePersonData } from './lib/operations/MergePersonData';
 import { DeleteCommittee } from './lib/operations/DeleteCommittee';
 import { MigrateAllPersons } from './lib/operations/MigrateAllPersons';
 import SetupAnalystsCommitteeJson from './lib/operations/SetupAnalystsCommitteeJson';
+import { UpdatePressReleaseLinks } from './lib/operations/UpdatePressReleaseLinks';
 
 // Load environment variables
 dotenv.config();
@@ -87,7 +88,8 @@ const MISC_OPERATIONS = {
     'verify-faqs': 'Verify FAQ data across all sites',
     'setup-analysts-committee-json': 'Setup Analysts & Committee JSON (manual, for LLM extraction)',
     'clean-analyst-committee-json': 'Clean up analyst-committee-llm.json (remove html, instructions, examples, llmComplete)',
-    'merge-person-data': 'Merge person data with committee information'
+    'merge-person-data': 'Merge person data with committee information',
+    'update-pr-links': 'Update links in press release entries'
 } as const;
 
 // Combined operations for operation class mapping
@@ -124,7 +126,8 @@ const CLASS_BASED_OPERATIONS = {
     'migrate-departments': MigrateDepartments,
     'migrate-committees': MigrateCommittees,
     'migrate-all-persons': MigrateAllPersons,
-    'merge-person-data': MergePersonData
+    'merge-person-data': MergePersonData,
+    'update-pr-links': UpdatePressReleaseLinks
 } as const;
 type ClassOperationType = keyof typeof CLASS_BASED_OPERATIONS;
 

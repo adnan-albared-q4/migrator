@@ -172,6 +172,17 @@ const operations: Record<string, Operation> = {
                 description: 'Create person list entries'
             }
         }
+    },
+    '6': {
+        name: 'Misc',
+        description: 'Miscellaneous operations',
+        modules: {
+            '1': {
+                name: 'Update PR Links',
+                script: './lib/operations/UpdatePressReleaseLinks.ts',
+                description: 'Update links in press release entries'
+            }
+        }
     }
 };
 

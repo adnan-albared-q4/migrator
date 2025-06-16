@@ -109,6 +109,72 @@ The tool supports multiple operations, each handling different types of content:
 #### Migrate Operations
 - `migrate-document-categories`: Migrate document categories to destination site
 
+#### Update Operations
+- `update-press-release-links`: Update links in press release content
+
+### Link Update Operation
+
+The link update operation (`update-press-release-links`) allows you to update links in press release content. This is useful for:
+- Updating old file paths to new locations
+- Fixing broken links
+- Standardizing link formats
+
+#### Features
+- Updates both `href` and `src` attributes
+- Supports exact filename matching
+- Verifies changes after saving
+- Allows saving and reusing sets of link updates
+
+#### Usage
+1. Run the operation:
+   ```bash
+   npm run start update-press-release-links
+   ```
+
+2. Choose between:
+   - Using a saved set of link updates
+   - Creating a new set of updates
+
+3. For new updates, provide:
+   - Old filename to find (e.g., `example.pdf`)
+   - New path/link to replace with (e.g., `/media/new-example.pdf` or `https://example.com/new-example.pdf`)
+   - Optional CSS selector to target specific elements
+
+4. Optionally save the set for future use
+
+#### Safety Features
+- Only updates content within `href` and `src` attributes
+- Preserves surrounding HTML structure
+- Verifies changes after saving
+- Shows detailed logs of what's being changed
+
+#### Saved Updates
+- Saved sets are stored in `data/link-updates/`
+- Each set includes:
+  - Name
+  - List of updates
+  - Creation date
+- Sets can be reused across multiple runs
+
+#### Example
+```json
+{
+  "name": "PDF Updates 2024",
+  "updates": [
+    {
+      "oldPath": "old-document.pdf",
+      "newPath": "/media/new-document.pdf"
+    },
+    {
+      "oldPath": "presentation.pdf",
+      "newPath": "https://example.com/presentations/2024/presentation.pdf",
+      "selector": ".content-area a"
+    }
+  ],
+  "createdAt": "2024-03-20T10:00:00Z"
+}
+```
+
 ### FAQ Scraping
 
 The FAQ scraping operation (`scrape-faqs`) extracts FAQ content from the source site and saves it to a JSON file. The operation:
