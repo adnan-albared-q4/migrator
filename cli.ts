@@ -34,6 +34,8 @@ import { DeleteCommittee } from './lib/operations/DeleteCommittee';
 import { MigrateAllPersons } from './lib/operations/MigrateAllPersons';
 import SetupAnalystsCommitteeJson from './lib/operations/SetupAnalystsCommitteeJson';
 import { UpdatePressReleaseLinks } from './lib/operations/UpdatePressReleaseLinks';
+import { SetupTaggingRules } from './lib/operations/SetupTaggingRules';
+import { ApplyTags } from './lib/operations/ApplyTags';
 
 // Load environment variables
 dotenv.config();
@@ -89,7 +91,9 @@ const MISC_OPERATIONS = {
     'setup-analysts-committee-json': 'Setup Analysts & Committee JSON (manual, for LLM extraction)',
     'clean-analyst-committee-json': 'Clean up analyst-committee-llm.json (remove html, instructions, examples, llmComplete)',
     'merge-person-data': 'Merge person data with committee information',
-    'update-pr-links': 'Update links in press release entries'
+    'update-pr-links': 'Update links in press release entries',
+    'setup-tagging-rules': 'Setup rules for tagging press releases',
+    'apply-tags': 'Apply tags to press releases based on rules'
 } as const;
 
 // Combined operations for operation class mapping
@@ -127,7 +131,9 @@ const CLASS_BASED_OPERATIONS = {
     'migrate-committees': MigrateCommittees,
     'migrate-all-persons': MigrateAllPersons,
     'merge-person-data': MergePersonData,
-    'update-pr-links': UpdatePressReleaseLinks
+    'update-pr-links': UpdatePressReleaseLinks,
+    'setup-tagging-rules': SetupTaggingRules,
+    'apply-tags': ApplyTags
 } as const;
 type ClassOperationType = keyof typeof CLASS_BASED_OPERATIONS;
 
