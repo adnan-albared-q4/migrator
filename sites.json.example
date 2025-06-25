@@ -1,7 +1,7 @@
 {
   "sites": [
     {
-      "name": "Example Site",
+      "name": "ExampleSite",
       "source": "sourcesubdomain2020index",
       "destination": "sourcesubdomain2025rd"
     }

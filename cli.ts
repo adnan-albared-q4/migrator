@@ -36,6 +36,7 @@ import SetupAnalystsCommitteeJson from './lib/operations/SetupAnalystsCommitteeJ
 import { UpdatePressReleaseLinks } from './lib/operations/UpdatePressReleaseLinks';
 import { SetupTaggingRules } from './lib/operations/SetupTaggingRules';
 import { ApplyTags } from './lib/operations/ApplyTags';
+import { ScanFAQLinks } from './lib/operations/ScanFAQLinks';
 
 // Load environment variables
 dotenv.config();
@@ -93,7 +94,8 @@ const MISC_OPERATIONS = {
     'merge-person-data': 'Merge person data with committee information',
     'update-pr-links': 'Update links in press release entries',
     'setup-tagging-rules': 'Setup rules for tagging press releases',
-    'apply-tags': 'Apply tags to press releases based on rules'
+    'apply-tags': 'Apply tags to press releases based on rules',
+    'scan-faq-links': 'Scan and display all links found in FAQ content'
 } as const;
 
 // Combined operations for operation class mapping
@@ -133,7 +135,8 @@ const CLASS_BASED_OPERATIONS = {
     'merge-person-data': MergePersonData,
     'update-pr-links': UpdatePressReleaseLinks,
     'setup-tagging-rules': SetupTaggingRules,
-    'apply-tags': ApplyTags
+    'apply-tags': ApplyTags,
+    'scan-faq-links': ScanFAQLinks
 } as const;
 type ClassOperationType = keyof typeof CLASS_BASED_OPERATIONS;
 
@@ -392,6 +395,61 @@ async function executeOperation(sites: SiteConfig[]) {
         // Get safe site directory names
         const siteDirs = sites.map(site => getSafeSiteDirName(site.name));
         await cleanAnalystCommitteeJson(siteDirs);
+        return;
+    }
+
+    // Handle ScanFAQLinks operation sequentially (for interactive prompts)
+    if (operation === 'scan-faq-links') {
+        console.log(chalk.blue('Sequential Processing:'));
+        console.log(chalk.yellow('Note: FAQ link scanning requires individual site review'));
+        console.log(chalk.green(`• Processing ${sites.length} sites sequentially\n`));
+
+        for (let i = 0; i < sites.length; i++) {
+            const site = sites[i];
+            console.log(chalk.blue(`\n📍 Processing site ${i + 1}/${sites.length}: ${site.name}`));
+            
+            try {
+                const loginManager = new LoginManager(site);
+                loginManager.setShared(true);
+                
+                const operationInstance = new ScanFAQLinks(site, loginManager);
+                const success = await operationInstance.execute();
+                await operationInstance.cleanup();
+                
+                if (!success) {
+                    console.log(chalk.red(`Operation failed for ${site.name}`));
+                } else {
+                    console.log(chalk.green(`Operation completed for ${site.name}`));
+                }
+                
+                await loginManager.close();
+                
+                // No separator needed - clean transition to next site
+            } catch (error) {
+                console.error(chalk.red(`Error processing ${site.name}:`), error);
+            }
+        }
+
+        console.log(chalk.green(`\nAll ${sites.length} sites have completed processing.`));
+
+        // Ask if user wants to continue
+        console.log(); // Empty line for spacing
+        const { shouldContinue } = await inquirer.prompt([
+            {
+                type: 'confirm',
+                name: 'shouldContinue',
+                message: 'Would you like to perform another operation?',
+                default: false
+            }
+        ]);
+
+        if (shouldContinue) {
+            await main();
+        } else {
+            console.log(chalk.green('\nThank you for using the Content Migration Tool. Goodbye!'));
+            process.exit(0);
+        }
+        
         return;
     }
 

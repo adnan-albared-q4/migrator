@@ -31,8 +31,8 @@ coverage/
 *.tmp
 *.temp 
 
-# Data directory
-data/ 
+# Data directory (only root level)
+/data/ 
 data/link-updates/
 data/link-updates/*.json
 

@@ -940,15 +940,54 @@ export class MigratePerson extends Base {
 
             await this.debugPrompt('Navigated to person list page');
 
-            // 4. Process each person
+            // 4. Process each person with verification
             for (let i = 0; i < this.persons.length; i++) {
                 const person = this.persons[i];
-                console.log(chalk.blue(`\nProcessing person ${i + 1}/${this.persons.length}`));
+                console.log(chalk.blue(`\nProcessing person ${i + 1}/${this.persons.length}: ${person.firstName} ${person.lastName}`));
 
-                const success = await this.createPersonEntry(page, person);
-                if (!success) {
-                    console.error(chalk.red(`Failed to create person ${i + 1}/${this.persons.length}`));
-                    // Continue with next person
+                let personCreated = false;
+                let retryCount = 0;
+                const maxRetries = 3;
+
+                while (!personCreated && retryCount < maxRetries) {
+                    if (retryCount > 0) {
+                        console.log(chalk.yellow(`Retry attempt ${retryCount}/${maxRetries} for ${person.firstName} ${person.lastName}`));
+                    }
+
+                    // Create the person entry
+                    const success = await this.createPersonEntry(page, person);
+                    if (!success) {
+                        console.error(chalk.red(`Failed to create person ${i + 1}/${this.persons.length}`));
+                        retryCount++;
+                        continue;
+                    }
+
+                    // Navigate back to person list page to verify
+                    console.log(chalk.blue('\nNavigating back to person list page for verification...'));
+                    const listPageLoaded = await this.waitForPageLoad(page);
+                    if (!listPageLoaded) {
+                        console.error(chalk.red('Failed to navigate back to person list page'));
+                        retryCount++;
+                        continue;
+                    }
+
+                    // Verify the person exists in the table
+                    const personExists = await this.verifyPersonInTable(page, person);
+                    if (personExists) {
+                        console.log(chalk.green(`✓ Verified ${person.firstName} ${person.lastName} exists in table`));
+                        personCreated = true;
+                    } else {
+                        console.log(chalk.red(`✗ Person ${person.firstName} ${person.lastName} not found in table`));
+                        retryCount++;
+                        if (retryCount < maxRetries) {
+                            console.log(chalk.yellow('Will retry creating this person...'));
+                        }
+                    }
+                }
+
+                if (!personCreated) {
+                    console.error(chalk.red(`Failed to create person ${person.firstName} ${person.lastName} after ${maxRetries} attempts`));
+                    // Continue with next person but log the failure
                 }
 
                 await this.debugPrompt(`Completed person ${i + 1}/${this.persons.length}`);
@@ -957,6 +996,137 @@ export class MigratePerson extends Base {
             return true;
         } catch (error) {
             console.error('Error in MigratePerson operation:', error);
+            return false;
+        }
+    }
+
+    /**
+     * Verifies that a person exists in the person list table
+     */
+    private async verifyPersonInTable(page: Page, person: PersonData): Promise<boolean> {
+        try {
+            console.log(chalk.blue('Verifying person exists in table...'));
+
+            // Wait for table to be present
+            await page.waitForSelector(this.selectors.personList.table, { timeout: 10000 });
+
+            // First, switch to the correct department filter
+            console.log(chalk.blue(`Switching to department: ${person.department}`));
+            
+            // Get all departments and their UUIDs from the dropdown
+            const departments = await page.evaluate(() => {
+                const select = document.querySelector('#_ctrl0_ctl19_ddlDepartment') as HTMLSelectElement;
+                return Array.from(select.options).map(option => ({
+                    name: option.text,
+                    value: option.value
+                }));
+            });
+
+            // Find the matching department UUID
+            const targetDept = departments.find(dept => dept.name === person.department);
+            if (!targetDept) {
+                console.log(chalk.red(`Department "${person.department}" not found in dropdown for verification`));
+                return false;
+            }
+
+            console.log(chalk.blue(`Found department UUID for verification: ${targetDept.value}`));
+
+            // Select the department using its UUID
+            await page.evaluate((deptId) => {
+                const select = document.querySelector('#_ctrl0_ctl19_ddlDepartment') as HTMLSelectElement;
+                select.value = deptId;
+                // Trigger change event to cause postback
+                const event = new Event('change', { bubbles: true });
+                select.dispatchEvent(event);
+            }, targetDept.value);
+
+            // Wait for the postback to complete and page to settle
+            console.log(chalk.blue('Waiting for department filter postback to complete...'));
+            await page.waitForTimeout(3000); // Wait for postback processing
+
+            // Wait for loading indicator to disappear if present
+            const loadingIndicator = await page.$(this.selectors.personList.loadingIndicator);
+            if (loadingIndicator) {
+                console.log(chalk.blue('Waiting for loading indicator to disappear after department switch...'));
+                await page.waitForFunction(
+                    (selector: string) => !document.querySelector(selector),
+                    { timeout: 30000 },
+                    this.selectors.personList.loadingIndicator
+                );
+            }
+
+            // Additional wait to ensure table has updated with new data
+            await page.waitForTimeout(2000);
+
+            // Verify the department selection was successful
+            const selectedDept = await page.evaluate(() => {
+                const select = document.querySelector('#_ctrl0_ctl19_ddlDepartment') as HTMLSelectElement;
+                return {
+                    name: select.options[select.selectedIndex].text,
+                    value: select.value
+                };
+            });
+
+            console.log(chalk.blue('Current department selection:'));
+            console.log(chalk.blue(JSON.stringify(selectedDept, null, 2)));
+
+            if (selectedDept.name !== person.department) {
+                console.log(chalk.red(`Department selection failed. Expected: ${person.department}, Got: ${selectedDept.name}`));
+                return false;
+            }
+
+            // Now check if person exists in the filtered table
+            const personExists = await page.evaluate((personData, tableSelector) => {
+                const table = document.querySelector(tableSelector);
+                if (!table) return false;
+
+                const rows = table.querySelectorAll('tr:not(.DataGridHeader)');
+                return Array.from(rows as NodeListOf<Element>).some((row: Element) => {
+                    const nameCell = row.querySelector('td.DataGridItemBorder:nth-child(2)');
+                    if (!nameCell) return false;
+                    
+                    const cellText = nameCell.textContent?.trim() || '';
+                    
+                    // Create multiple possible name combinations to check
+                    const possibleNames = [
+                        `${personData.firstName} ${personData.lastName}`,
+                        `${personData.firstName} ${personData.suffix || ''} ${personData.lastName}`.trim(),
+                        `${personData.firstName} ${personData.lastName} ${personData.suffix || ''}`.trim()
+                    ].filter(name => name.length > 0);
+                    
+                    // Check if any of the possible names match (case-insensitive, space-normalized)
+                    return possibleNames.some(possibleName => {
+                        const normalizedPossibleName = possibleName.replace(/\s+/g, ' ').toLowerCase();
+                        const normalizedCellText = cellText.replace(/\s+/g, ' ').toLowerCase();
+                        
+                        // Check for exact match
+                        if (normalizedPossibleName === normalizedCellText) {
+                            return true;
+                        }
+                        
+                        // Check if the cell text contains both first and last name
+                        const firstNameLower = personData.firstName.toLowerCase();
+                        const lastNameLower = personData.lastName.toLowerCase();
+                        const cellTextLower = cellText.toLowerCase();
+                        
+                        return cellTextLower.includes(firstNameLower) && cellTextLower.includes(lastNameLower);
+                    });
+                });
+            }, {
+                firstName: person.firstName,
+                lastName: person.lastName,
+                suffix: person.suffix || ''
+            }, this.selectors.personList.table);
+
+            if (personExists) {
+                console.log(chalk.green(`✓ Verified ${person.firstName} ${person.lastName} exists in ${person.department} department table`));
+            } else {
+                console.log(chalk.red(`✗ Person ${person.firstName} ${person.lastName} not found in ${person.department} department table`));
+            }
+
+            return personExists;
+        } catch (error) {
+            console.error(chalk.red('Error verifying person in table:'), error);
             return false;
         }
     }
